@@ -33,7 +33,7 @@ if nav_option == "ABOUT ME":
     with col1:
         st.markdown("<div style='text-align: justify;'>Computer Science graduate with a specialization in Artificial Intelligence and Machine Learning. Proficient in C++ and Python coding, with experience in machine learning algorithms and deep learning frameworks, excels in collaborative team environments. My expertise includes developing innovative AI solutions, evident in projects like a chatbot for a coffee shop and a deep learning model for pest detection in farmland. My research contributions delve into NLP and deep learning optimization, showcasing my dedication to advancing AI technologies. My blend of technical skills and practical experience positions me as a valuable asset in driving AI advancements.<\div>", unsafe_allow_html=True)
     with col2:
-        st.image("profile_Image.jpeg")
+        st.image("Profile_Image.jpeg")
     
 elif nav_option == "EDUCATION":
     st.header("Education")
