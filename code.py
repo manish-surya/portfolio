@@ -84,11 +84,11 @@ selected = option_menu(
 if selected=="About":
     st.write(f'<h1 style="color:#ff4c4b;">About Me</h1>', unsafe_allow_html=True)
     st.subheader("Computer Science graduate with a strong command of programming languages and a passion for applying AI to develop innovative applications")
-    col1, col2 = st.columns([2,1])
-    with col1:
-        st.markdown("<div style='text-align: justify;'>Computer Science graduate with a specialization in Artificial Intelligence and Machine Learning. Proficient in C++ and Python coding, with experience in machine learning algorithms and deep learning frameworks, excels in collaborative team environments. My expertise includes developing innovative AI solutions, evident in projects like a chatbot for a coffee shop and a deep learning model for pest detection in farmland. My research contributions delve into NLP and deep learning optimization, showcasing my dedication to advancing AI technologies. My blend of technical skills and practical experience positions me as a valuable asset in driving AI advancements.<\div>", unsafe_allow_html=True)
-    with col2:
-        st.image("profile_Image.jpeg")
+    # col1, col2 = st.columns([2,1])
+    # with col1:
+    st.markdown("<div style='text-align: justify;'>Computer Science graduate with a specialization in Artificial Intelligence and Machine Learning. Proficient in C++ and Python coding, with experience in machine learning algorithms and deep learning frameworks, excels in collaborative team environments. My expertise includes developing innovative AI solutions, evident in projects like a chatbot for a coffee shop and a deep learning model for pest detection in farmland. My research contributions delve into NLP and deep learning optimization, showcasing my dedication to advancing AI technologies. My blend of technical skills and practical experience positions me as a valuable asset in driving AI advancements.<\div>", unsafe_allow_html=True)
+    # with col2:
+    #     st.image("profile_Image.jpeg")
     
 if selected=="Education":
     st.write(f'<h1 style="color:#ff4c4b;">Education</h1>', unsafe_allow_html=True)
