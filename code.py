@@ -18,7 +18,7 @@ st.sidebar.write("Email: manishshambala@gmail.com")
 st.sidebar.markdown(f"""
     <style>
         .profile-link {{
-            background-color: #f53366;
+            background-color: #ff4c4b;
             padding: 10px;
             border-radius: 10px;
             margin-bottom: 10px;
@@ -82,7 +82,7 @@ selected = option_menu(
 
 # Define the content for each section
 if selected=="About":
-    st.write(f'<h1 style="color:#f53366;">About Me</h1>', unsafe_allow_html=True)
+    st.write(f'<h1 style="color:#ff4c4b;">About Me</h1>', unsafe_allow_html=True)
     st.subheader("Computer Science graduate with a strong command of programming languages and a passion for applying AI to develop innovative applications")
     col1, col2 = st.columns([2,1])
     with col1:
@@ -91,7 +91,7 @@ if selected=="About":
         st.image("profile_Image.jpeg")
     
 if selected=="Education":
-    st.write(f'<h1 style="color:#f53366;">Education</h1>', unsafe_allow_html=True)
+    st.write(f'<h1 style="color:#ff4c4b;">Education</h1>', unsafe_allow_html=True)
     
     st.markdown("<h3><a href='https://case.edu' style='color:black;text-decoration:none;'>Case Western Reserve University</a></h3>", unsafe_allow_html=True)
     st.write("**Master of Science - Computer Science**")
@@ -104,7 +104,7 @@ if selected=="Education":
     st.write("**CGPA:** 8.65 / 10")
 
 if selected=="Research":
-    st.write(f'<h1 style="color:#f53366;">Research</h1>', unsafe_allow_html=True)
+    st.write(f'<h1 style="color:#ff4c4b;">Research</h1>', unsafe_allow_html=True)
     st.subheader("Analysis of linguistic and math features for classification of math word problems: Insights and future direction")
     
     st.write("**Role:** Research Assistant ")
@@ -116,7 +116,7 @@ if selected=="Research":
     research_paper_link="http://ijmas.iraj.in//paper_detail.php?paper_id=20128&nameAnalysis_of_Linguistics_and_Math_Features_for_Classification_of_Math_Word_Problems:_Insights_and_Future_Direction"
 
 if selected=="Experience":
-    st.write(f'<h1 style="color:#f53366;">Experience - Research Assistantship</h1>', unsafe_allow_html=True)
+    st.write(f'<h1 style="color:#ff4c4b;">Experience - Research Assistantship</h1>', unsafe_allow_html=True)
     # Graduate Research Assistantship
     st.subheader("Case Western Reserve University (01/2023 - 05/2023)")
     st.write ("**Graduate Research Assistantship**")
@@ -143,7 +143,7 @@ if selected=="Experience":
     st.write("• Utilized Python libraries like TensorFlow & OpenCV.")
         
 if selected=="Skills": 
-    st.write(f'<h1 style="color:#f53366;">Skills</h1>', unsafe_allow_html=True)
+    st.write(f'<h1 style="color:#ff4c4b;">Skills</h1>', unsafe_allow_html=True)
     st.subheader("Programming Languages")
     st.write("C, C++, Python, SQL, R (Basic)")
 
@@ -166,7 +166,7 @@ if selected=="Skills":
     - **Web Interface Development**: Flask, Streamlit
     """)
 if selected=="Projects":
-    st.write(f'<h1 style="color:#f53366;">Projects</h1>', unsafe_allow_html=True)
+    st.write(f'<h1 style="color:#ff4c4b;">Projects</h1>', unsafe_allow_html=True)
 
     # Project 1: Pistachio Classification
     st.subheader("Project 1: Pistachio Classification")
@@ -246,7 +246,7 @@ if selected=="Projects":
         """, unsafe_allow_html=True)
 
 if selected=="Certifications":
-    st.write(f'<h1 style="color:#f53366;">Certifications</h1>', unsafe_allow_html=True)
+    st.write(f'<h1 style="color:#ff4c4b;">Certifications</h1>', unsafe_allow_html=True)
     certifications = [
         {
             "title": "Python Essentials for MLOps",
