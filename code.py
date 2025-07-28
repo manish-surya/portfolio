@@ -76,7 +76,7 @@ selected = option_menu(
     menu_title=None,
     options=["About", "Education", "Research", "Experience", "Skills", "Projects", "Certifications"],
     icons=["person-fill", "mortarboard-fill", "search", "code-slash", "person-fill-gear", "folder-fill",  "file-earmark-text"],
-    orientation="horizontal"
+    orientation="vertical"
 )
 # icons.getbootstrap.com -> website for icons
 
