@@ -71,7 +71,7 @@ st.sidebar.markdown(f"""
 
 # Main body of content
 
-st.title("MANISH **ROUTHU**")
+st.title("MANISH SRI SAI SURYA **ROUTHU**")
 selected = option_menu(
     menu_title=None,
     options=["About", "Education", "Research", "Experience", "Skills", "Projects", "Certifications"],
